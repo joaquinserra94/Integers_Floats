@@ -5,7 +5,7 @@ html {
   }
 
   body {
-    width: 600px;
+    width: 600px; /* cuerpo siempre tendra 600 px de ancho */
     margin: 0 auto;
     background-color: #ff9500;
     padding: 0 20px 20px 20px; /* ancho, largo, margen a la izq */
@@ -14,9 +14,15 @@ html {
   
 
   h1 {
-    font-size: 60px;
-    text-align: center;
-  }
+        font-size: 30px;
+        margin: 2;
+        padding: 20px 0;
+        color: #00539f;
+        text-shadow: 1px 1px 1px black; /*horizontal, vertical, sombra*/
+        
+      }
+      
+  
   
   p,
   li {
@@ -25,7 +31,11 @@ html {
     letter-spacing: 1px;
   }
   
-
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  
 
 
 
